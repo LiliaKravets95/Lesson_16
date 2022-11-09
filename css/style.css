@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+.wrapper {
+	overflow: hidden;
+	min-height: 100%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
+.wrapper>main {
+	flex-grow: 1;
+}
+
+
+body {
+	font-family: "Lato", sans-serif;
+	color: #333;
+	background-color: rgb(235, 226, 226);
+}
+
+.page {
+	padding: 50px;
+
+}
+
+
+.form {}
+
+.form__line {
+	width: 50%;
+}
+
+.form__line:not(last-child) {
+	margin-bottom: 20px;
+
+}
+
+.form__input {
+	height: 50px;
+	padding: 0px 15px;
+	font-size: 22px;
+	font-weight: 700;
+}
+
+.form__input_chk {
+	width: auto;
+	vertical-align: middle;
+	color: red;
+	width: 17px;
+	height: 17px;
+}
+
+.form__label {
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.form__area {
+	padding: 10px;
+	height: 200px;
+	resize: none;
+}
+
+.form__button {
+	padding: 15px;
+	background-color: rgb(105, 99, 105);
+	box-shadow: 0 5px 0 rgb(0, 0, 0, 0.8);
+	transition: all 0.3s ease 0s;
+	color: white;
+}
+
+.form__button:hover {
+	box-shadow: 0px 2px 0px rgb(0, 0, 0, 0.8);
+	background-color: #7a956b;
+	transform: translate(0px, 3px);
+}
+
+/*.form__input::placeholder {} псевдоелемент */
+
+
+/* ================================= 
+.footer {
+
+	max-width: 1280px;
+	padding: 50px;
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+
+
+}
+
+.illustration {
+
+	width: 452px;
+	height: 495px;
+}
+
+.illustration__image {
+	position: relative;
+}
+
+.title {
+	justify-content: center;
+	flex-direction: row-reverse;
+	width: 145px;
+	height: 22px;
+
+}
+
+.title__questions {
+	gap: 100px;
+	margin-left: 100px;
+	font-weight: 700;
+	font-size: 22px;
+	margin-bottom: 20px;
+
+}
+
+.title__main {
+	margin: 0px 150px;
+	font-weight: 900;
+	font-size: 38px;
+}
+
+.form__line {}
+
+.form__label {}
+
+.form__input {}*/
